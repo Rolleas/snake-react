@@ -18,6 +18,7 @@ function App() {
   const [leaders, setLeaders] = useState([]);
   const [score, setScore] = useState(0);
 
+
   return (
       <div>
           {!gameStart && gameEnd === false &&  <SettingsPage setGameEnd={setGameEnd} setGameStart={setGameStart} settings={settings} setSettings={setSettings} />}
